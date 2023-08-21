@@ -1,0 +1,401 @@
+*{
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+nav{
+    position: fixed;
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 150px;
+   z-index: 1;
+    background-color: rgba(0, 0, 0, 0.963);
+}
+nav a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.67);
+    font-size: 14px;
+}
+.icon{
+    font-size: 17px;
+}
+
+.notification{
+   position: absolute;
+   top: 7vh;
+    width: 100%;
+    height: 10vh;
+    line-height: 5px;
+    color: #fff;
+    font-size: 14px;
+    background-image: linear-gradient(to bottom right , rgb(29, 2, 57) , rgb(214, 107, 214));
+}
+.notification .para1{
+    padding: 10px 260px;
+}
+.notification .para2{
+    padding: 10px 450px;
+}
+.notification a:hover{
+    text-decoration: underline;
+}
+.notification a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.first-section{
+    position: relative;
+    top: 17vh;
+    width: 100%;
+    height: 125vh;
+    background-color: black;
+    color: white;
+}
+.first-section h1{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 55px;
+}
+.first-section h3{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 35px;
+}
+.first-section a{
+    position: absolute;
+    top: 32%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(0, 68, 128);
+}
+.first-section .learn-more{
+  position: absolute;
+    left: 47%;
+}
+.first-section .buy{
+    position: absolute;
+    left: 55%;
+}
+.first-section img{
+    position: absolute;
+    top: 72.1%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+}
+
+.second-section{
+    position: absolute;
+    width: 100%;
+    height: 120vh;
+    top: 145%;
+    background-color: #000;
+}
+.second-section-details .apple-icon{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 55px;
+    font-weight: bolder;
+    color: #fff;
+}
+.second-section-details .heading-3-1{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 35px;
+}
+.second-section-details .heading-3-2{
+    position: absolute;
+    top: 32%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 35px;
+    color: #fff;
+}
+.second-section-details a{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(0, 68, 128);
+}
+.second-section .learn-more{
+    position: absolute;
+      left: 47%;
+  }
+  .second-section .buy{
+      position: absolute;
+      left: 55%;
+  }
+.second-section img{
+    position: absolute;
+    top: 72.1%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+}
+
+.third-section{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 268%;
+  
+}
+.third-section .left{
+    position: absolute;
+    left: 2%;
+    height: 100vh;
+    width: 48%;
+    background-color: black;
+}
+.third-section .left h1{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    color: white;
+}
+.third-section .left h3{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    color: #fff;
+}
+.third-section .left a{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(0, 68, 128);
+}
+.third-section .left .learn-more{
+    position: absolute;
+      left: 43%;
+  }
+  .third-section .left .buy{
+      position: absolute;
+      left: 59%;
+  }
+.third-section .left img{
+    position: absolute;
+    top: 72.1%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 62%;
+}
+.third-section .right{
+position: absolute;
+right: 2%;
+    height: 100vh;
+    width: 48%;
+   background-color: white;
+}
+.third-section .right .apple-icon{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    font-weight: bolder;
+    color: black;
+}
+.third-section .right .heading-3-1{
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+}
+.third-section .right  .heading-3-2{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    color: black;
+}
+.third-section .right  a{
+    position: absolute;
+    top: 32%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(0, 68, 128);
+}
+.third-section .right .learn-more{
+    position: absolute;
+      left: 43%;
+  }
+  .third-section .right .buy{
+      position: absolute;
+      left: 59%;
+  }
+.third-section .right  img{
+    position: absolute;
+    top: 73.5%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+    width: 65%;
+}
+
+.forth-section{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 371%;
+}
+.forth-section .left{
+    position: absolute;
+    left: 2%;
+    height: 100vh;
+    width: 48%;
+    background-color: #fff;
+}
+.forth-section .left h1{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    color: black;
+}
+.forth-section .left h3{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    color: black;
+}
+.forth-section .left a{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(0, 68, 128);
+}
+.forth-section .left .learn-more{
+    position: absolute;
+      left: 43%;
+  }
+  .forth-section .left .buy{
+      position: absolute;
+      left: 59%;
+  }
+.forth-section .left img{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 72%;
+}
+.forth-section .right{
+    position: absolute;
+    right: 2%;
+        height: 100vh;
+        width: 48%;
+        background-position: center;
+        background-size: cover;
+  background-image: url(image/female-clone.jpg);
+  opacity: 0.8;
+    }
+    .forth-section .right h1{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 30px;
+        color: white;
+    }
+    .forth-section .right h3{
+        position: absolute;
+        top: 63%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 20px;
+        color: #fff;
+    }
+    .forth-section .right a{
+        position: absolute;
+        top: 72%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 20px;
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .information-blog{
+        position: absolute;
+        width: 100%;
+        height: 80vh;
+        top: 474.5%;
+        background-color: whitesmoke;
+    }
+    .information-blog .insider{
+        position: absolute;
+        left: 10%;
+        top: 2.7vh;
+        width: 80%;
+        height: 70vh;
+      background-color: whitesmoke;
+      color: grey;
+    }
+
+    footer{
+        position: absolute;
+        width: 100%;
+        height: 10vh;
+        top: 558%;
+        
+    }
+    .bottom-section a{
+        color: gray;
+        text-decoration: none;
+    }
+    .bottom-section{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: absolute;
+        left: 10%;
+        width: 80%;
+        height: 10vh;
+        border-top: 1.5px grey solid;
+    }
+    .center-details{
+        display: flex;
+        justify-content: space-between;
+        width: 43%;
+    }
+    
